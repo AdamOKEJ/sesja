@@ -1,0 +1,2 @@
+Dlaczego setEnabled(false) zamiast setVisible(false)?
+Ponieważ informuje to użytkownika o istnieniu funkcji, mimo braku uprawnień do jej użycia. Zapobiega to również "skakaniu" elementów interfejsu (układ okna pozostaje stały).
